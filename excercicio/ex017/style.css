@@ -1,0 +1,18 @@
+body {  
+    font: bolder 17px 'Courier New', Courier, monospace;
+}
+h1 {
+    font: italic bolder 3em 'work sans', sans-serif;
+    text-align: center;
+}
+h2 {
+    font: italic bolder 2em 'work sans', sans-serif;
+    text-align: center;
+}
+a {
+    font-size: 20px;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
