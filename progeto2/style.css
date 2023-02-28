@@ -58,6 +58,10 @@ section {
     font-size: 20px;
 }
 
+section > p {
+   padding-bottom: 2em;
+}
+
  section.imagem {
     background-color: rgb(41, 41, 41);
     color: white;
@@ -71,6 +75,10 @@ section.imagem > p {
 
  section.normal {
     background-color: white;
+ }
+
+ section#img01 {
+   
  }
 
  footer {
