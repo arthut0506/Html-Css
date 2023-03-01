@@ -78,7 +78,11 @@ section.imagem > p {
  }
 
  section#img01 {
-   
+   background-image: url();
+ }
+
+ section#img002 {
+
  }
 
  footer {
@@ -88,3 +92,4 @@ section.imagem > p {
     padding: 10px;
  }
  
+
