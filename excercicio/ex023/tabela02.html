@@ -12,6 +12,12 @@
 
             table {
                 width: 500px;
+                border-collapse: collapse;
+            }
+            caption {
+                font-size: 1.5em;
+                font-weight: bold;
+                padding: 10px;
             }
             td,th {
                 border: 1px solid black;
@@ -22,10 +28,12 @@
                 background-color: gray;
                 color: white;
             }
+
         </style>
 </head>
 <body>
     <table>
+        <caption>população das unidades federativas</caption>
         <thead>
             <tr>
                 <th>estado</th>
@@ -37,9 +45,20 @@
                 <td>São Paulo</td>
                 <td>41 262 199</td>
             </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td>20 732 660</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>15 989 929</td>
+            </tr>
         </tbody>
         <tfoot>
-
+            <tr>
+                <th>total de abitantes</th>
+                <td>0000</td>
+            </tr>
         </tfoot>
     </table>
 </body>
