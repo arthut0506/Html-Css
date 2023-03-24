@@ -60,6 +60,7 @@ section {
 
 section > p {
    padding-bottom: 2em;
+   max-width: 70%;
 }
 
  section.imagem {
@@ -84,7 +85,7 @@ section.imagem > p {
  section#img01 {
    background-image: url('../imagens/background001.jpg');
    background-position: right center;
-   background-size: cover;
+   background-size: 
  }
 
  section#img02 {
