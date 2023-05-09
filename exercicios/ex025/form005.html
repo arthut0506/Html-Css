@@ -9,8 +9,24 @@
  <body>
     <h1>exemplo de formulario</h1>
     <form action="cadastro.php" autocomplete="on">
+
+        <fieldset>
+                <legend>Sexo</legend>
+            
+                <input type="radio" name="sexo" id="isxmas" checked> <label for="isxmas">Mascolino</label> <br>
+                <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label> <br> 
+
+        </fieldset>
+
         <fieldset>
             <legend>Esportes favoritos</legend>
+
+           <input type="checkbox" name="futbol" id="ifutbol" checked> <label for="ifutbol">futbol</label>     <br> 
+           <input type="checkbox" name="volei" id="ivolei"> <label for="ivolei">volei</label>        <br>
+           <input type="checkbox" name="basket" id="ibasket"> <label for="ibasket">basket</label>     <br>
+           <input type="checkbox" name="corrida" id="icorrida"> <label for="icorrida">corrida </label> <br>
+           <input type="checkbox" name="handbol" id="ihandbol"> <label for="ihandbol">hand bol</label> <br>
+
         </fieldset>
         <p>
             <input type="submit" value="Enviar">
