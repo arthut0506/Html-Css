@@ -7,6 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>exemplo de formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on"></form>
+    <p>
+        <label for="icor">Cor:</label>
+        <input type="color" name="color" id="icolor">
+    </p>
+
+    <p>
+        <label for="inivel">Nivel de satisfação:</label>
+        <input type="range" name="nivel" id="inivel">
+    </p>
+
+    <p>
+        <label for="iimg">foto de perfil</label>
+        <input type="file" name="img" id="iimg">
+    </p>
+
+    <p>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="enviar">
+    </p>
 </body>
 </html>
