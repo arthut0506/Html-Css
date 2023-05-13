@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> exemplo de formulario</h1>
+    <form action="cadastro.php">
+
+        <p>
+        <label for="iest">estado</lael>
+            <select name="est" id="iest">
+                <optgroup label="grupo 1">
+                    <option value="mg">minas gerais</option>
+                    <option value="rj">rio de janeiro</option>
+                    <option value="sp">são paulo</option>
+                </optgroup>
+
+                <option value="rg">rio grande do sul</option>
+                <option value="rn">rio grande do norte</option>
+                <option value="sc">santa catarina</option>
+
+                <option value="pr">parana</option>
+                <option value="bh">bahia</option>
+                <option value="ce">ceara</option>
+
+                <option value="ro">rondonia</option>
+                <option value="mn" selected>manaus</option>
+                
+            </select>
+    </p>
+
+    <label for="iprof">profissao</label>
+    <input type="text" name="prof" id="iprof" list="ilprof">
+    
+
+    <p>
+        <input type="reset" value="limplar">
+        <input type="submit" value="enviar">
+    </p>
+
+    </form>
+    
+</body>
+</html>
